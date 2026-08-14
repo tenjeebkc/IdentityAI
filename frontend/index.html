@@ -1,31 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Assumption AI</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#7461d8">
+    <title>IdentityAI — Your mindset guide</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <main class="app-shell">
+        <section class="chat-container" aria-label="IdentityAI chat">
+            <header class="app-header">
+                <div class="brand-mark" aria-hidden="true">✦</div>
+                <div>
+                    <h1>IdentityAI</h1>
+                    <p>Your guide to mindset, identity &amp; self-concept</p>
+                </div>
+                <span class="status" aria-label="Online"><span></span> Online</span>
+            </header>
 
-<div class="chat-container">
+            <div id="chat-box" class="chat-box" aria-live="polite" aria-label="Conversation">
+                <section id="welcome-screen" class="welcome-screen">
+                    <div class="welcome-orb" aria-hidden="true">✦</div>
+                    <p class="eyebrow">A space to return to yourself</p>
+                    <h2>Explore your identity, mindset, and self-concept.</h2>
+                    <p class="welcome-copy">Begin with a question, or choose a gentle prompt to start the conversation.</p>
+                    <div class="suggestions" aria-label="Suggested questions">
+                        <button class="suggestion-card" type="button" data-prompt="How do I change my self-concept?"><span>✨</span> How do I change my self-concept?</button>
+                        <button class="suggestion-card" type="button" data-prompt="How can I stop negative thoughts?"><span>💭</span> How can I stop negative thoughts?</button>
+                        <button class="suggestion-card" type="button" data-prompt="How do I live in the end?"><span>🌱</span> How do I live in the end?</button>
+                        <button class="suggestion-card" type="button" data-prompt="How can I improve my relationships?"><span>❤️</span> How can I improve my relationships?</button>
+                    </div>
+                </section>
+            </div>
 
-    <h1>✨ Assumption AI</h1>
+            <form id="chat-form" class="input-area">
+                <textarea id="user-input" rows="1" placeholder="Ask anything about your reality..." aria-label="Your message"></textarea>
+                <button id="send-button" class="send-button" type="submit" aria-label="Send message" disabled>
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 3 10.6 13.4M21 3l-6.6 18-3.8-7.6L3 9.6 21 3Z"/></svg>
+                </button>
+            </form>
+            <p class="input-hint">Enter to send <span>•</span> Shift + Enter for a new line</p>
+        </section>
+    </main>
 
-    <div id="chat-box">
-        <div class="bot">
-            Hello. Ask me anything about the Law of Assumption.
-        </div>
-    </div>
-
-    <div class="input-area">
-        <input id="user-input" placeholder="Type your message...">
-        <button onclick="sendMessage()">Send</button>
-    </div>
-
-</div>
-
-
-<script src="script.js"></script>
-
+    <script src="script.js"></script>
 </body>
 </html>

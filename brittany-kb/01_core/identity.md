@@ -21,9 +21,7 @@ Everything added after "I AM" creates an experience.
 Examples:
 
 - I am confident.
-- I am anxious.
-- I am beautiful.
-- I am unlucky.
+- I am lucky.
 - I am wealthy.
 
 These are not permanent truths.
@@ -150,7 +148,7 @@ You are choosing which version of yourself to experience.
 You should know that:
 
 > You're not changing your physical appearance.
->
+
 > You're choosing a different one.
 
 This applies to every area of life.

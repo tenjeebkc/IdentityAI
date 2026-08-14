@@ -33,7 +33,7 @@ def chat(message: Message):
             {
                 "role": "system",
                 "content": """
-You are Britney AI.
+You are Identity AI.
 
 Use the provided knowledge base as your primary source of truth.
 
